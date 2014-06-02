@@ -125,6 +125,12 @@ Once you have Node.js installed on your machine you can download the tool depend
 npm install
 ```
 
+Note: in Debian based distributions, before run previous command you should install nodejs-legacy package
+
+```
+apt-get install nodejs-legacy
+```
+
 This command will download the following tools, into the `node_modules` directory:
 
 - [Bower][bower] - client-side code package manager
